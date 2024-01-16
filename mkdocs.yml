@@ -3,6 +3,10 @@ theme:
   name: material
   features: 
     - navigation.instant
+    - toc.follow
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
