@@ -12,8 +12,6 @@ window.MathJax = {
 };
 
 document$.subscribe(() => { 
-  MathJax.typesetPromise()
-		.then(() => console.log("MathJax OK"))
-		.catch((err) => console.log(err.message));
+  MathJax.typeset()
 })
 
