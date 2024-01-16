@@ -6,10 +6,6 @@ nav:
     - 2. Variables and Types: '02-type.md'
     - 3. Functions: '03-function.md'
     - 4. Encapsulation: '04-encapsulation.md'
-shortcuts:
-  previous: 72 #h
-  next: 76 #l
-  search: 191 #/
 theme: 
   name: material
   features: 
@@ -18,11 +14,19 @@ theme:
     - toc.integrate
     - content.code.annotate
     - content.code.copy
+      #  palette:
+      #    primary: deep orange
+      #    accent: deep orange
+  shortcuts:
+    previous: 72 #h
+    next: 76 #l
+    search: 191 #/
 
-site_name: My Docs
+site_name: CS2030S Programming Methodology II
 # repo_url: https://github.com/nus-cs1010/1819-s1
 site_url: https://nus-cs2030s.github.io/2324-s2
 copyright: Copyright by Department of Computer Science, National University of Singapore 2024
+# remote_branch: gh-pages
 use_directory_urls: false
 markdown_extensions:
   - md_in_html
