@@ -1,7 +1,11 @@
 nav:
   - Home: 'index.md'
   - Notes:
-    - 2. Test: '02-type.md'
+    - 0. Overview: '00-overview.md'
+    - 1. Program and Compiler: '01-compiler.md'
+    - 2. Variables and Types: '02-type.md'
+    - 3. Functions: '03-function.md'
+    - 4. Encapsulation: '04-encapsulation.md'
 shortcuts:
   previous: 72 #h
   next: 76 #l
