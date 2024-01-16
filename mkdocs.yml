@@ -1,4 +1,17 @@
+nav:
+  - Home: 'index.md'
+  - Notes:
+    - 2. Test: '02-type.md'
+shortcuts:
+  previous: 72 #h
+  next: 76 #l
+  search: 191 #/
+
 site_name: My Docs
+# repo_url: https://github.com/nus-cs1010/1819-s1
+site_url: https://nus-cs2030s.github.io/2324-s2
+copyright: Copyright by Department of Computer Science, National University of Singapore 2024
+
 theme: 
   name: material
   features: 
@@ -7,6 +20,7 @@ theme:
     - toc.integrate
     - content.code.annotate
     - content.code.copy
+
 markdown_extensions:
   - md_in_html
   - admonition
@@ -39,14 +53,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 extra_css:
   - 'stylesheets/extra.css'
   - 'https://fonts.googleapis.com/css?family=Roboto:400,700'
   - 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'
-nav:
-  - Home: 'index.md'
-  - Test: '02-type.md'
