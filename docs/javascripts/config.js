@@ -12,6 +12,7 @@ window.MathJax = {
 };
 
 document$.subscribe(() => { 
+  MathJax.typesetClear()
   MathJax.typeset()
 })
 
