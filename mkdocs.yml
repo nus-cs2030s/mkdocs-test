@@ -10,12 +10,6 @@ shortcuts:
   previous: 72 #h
   next: 76 #l
   search: 191 #/
-
-site_name: My Docs
-# repo_url: https://github.com/nus-cs1010/1819-s1
-site_url: https://nus-cs2030s.github.io/2324-s2
-copyright: Copyright by Department of Computer Science, National University of Singapore 2024
-
 theme: 
   name: material
   features: 
@@ -25,6 +19,11 @@ theme:
     - content.code.annotate
     - content.code.copy
 
+site_name: My Docs
+# repo_url: https://github.com/nus-cs1010/1819-s1
+site_url: https://nus-cs2030s.github.io/2324-s2
+copyright: Copyright by Department of Computer Science, National University of Singapore 2024
+use_directory_urls: false
 markdown_extensions:
   - md_in_html
   - admonition
